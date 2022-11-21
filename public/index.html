@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Game</title>
+        <link rel="stylesheet" href="./styles.css" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+    </head>
+
+    <body>
+        <div id="game">
+            <div id="starter">
+                <div class="action">
+                    {action}
+                </div>
+            </div>
+
+            <div id="score">
+                <span class="light-score">pontuação: {light-score}</span>
+                <span class="dark-score">pontuação: {dark-score}</span>
+            </div>
+
+            <div id="winner-alert">
+                <div class="content-modal">
+                    <span class="title">Temos um vencedor!</span>
+                    <span class="action">continuar jogando</span>
+                </div>
+            </div>
+
+            <div id="competition">
+                <div id="light-side"></div>
+                <div id="dark-side"></div>
+            </div>
+        </div>
+
+        <script src="./script.js"></script>
+    </body>
+</html>
